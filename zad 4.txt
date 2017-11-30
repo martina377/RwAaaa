@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1443/RR</title>
+</head>
+	<body>
+<h1>zadatak 4</h1>
+<script>
+	var broj1 = parseInt(prompt("Unesite prvi broj:"));
+	var broj2 = parseInt(prompt("Unesite drugi broj:"));
+	if(!isNaN(broj1) && !isNaN(broj2)){
+		prosjek(broj1, broj2);
+	} else {
+		alert("Pogresan unos!");
+	}
+	
+	function prosjek(i, j){
+		var zbroj = i + j;
+		var prosjek = zbroj / 2;
+		document.write("Aritmeticka sredina je brojeva " + i + " i " + j + " je: " + prosjek);
+	}
+</script>
+	</body>
+</html>
